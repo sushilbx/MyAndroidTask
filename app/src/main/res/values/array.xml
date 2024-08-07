@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rule_array">
+        <item> Odd Numbers</item>
+        <item> Even Numbers</item>
+        <item> Prime Numbers</item>
+        <item> Fibonacci Numbers</item>
+    </string-array>
+</resources>
