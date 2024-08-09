@@ -25,7 +25,8 @@ public class UserListViewHolder extends RecyclerView.ViewHolder {
         b.tvEmail.setText(model.email);
         b.tvAdharCard.setText(model.adhar);
         b.tvDateOfBirth.setText(model.dateOfBirth);
-        b.tvGender.setText(model.dateOfJoining);
+        b.tvGender.setText(model.gender);
+        b.tvDateOfJoining.setText(model.dateOfJoining);
 
 
     }

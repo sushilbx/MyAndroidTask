@@ -213,6 +213,7 @@ public class PostFormActivity extends AppCompatActivity {
                     if (isValidAge(yearSelected, monthSelected, daySelected)) {
                         String selectedDate = daySelected + "/" + (monthSelected + 1) + "/" + yearSelected;
                         b.tvDateOfBirth.setText("Selected Date: " + selectedDate);
+                        dateOfBirth=selectedDate;
                     } else {
                         b.tvDateOfBirth.setText("Age must be 18 or older.");
                     }
